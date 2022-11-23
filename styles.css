@@ -1,4 +1,5 @@
 /* general styling */
+
 :root {
     --smaller: 0.75;
   }
@@ -27,7 +28,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 140px;
     min-height: calc(100-1rem);
   }
 
@@ -112,7 +113,7 @@ footer
     padding: 0 0.5rem;
   }
   
-  @media all and (max-width: 768px) {
+  /* @media all and (max-width: 768px) {
     h1 {
       font-size: calc(1.5rem * var(--smaller));
     }
@@ -124,5 +125,4 @@ footer
     li span {
       font-size: calc(3.375rem * var(--smaller));
     }
-  }
-
+  } */
